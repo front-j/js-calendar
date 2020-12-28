@@ -1,0 +1,63 @@
+#calendar {
+    width: 70%;
+    height: 520px;
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#cal-left{
+    width: 40%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #fa5252;
+    color:#f8f9fa;
+}
+
+#cal-right{
+    width: 60%;
+    height: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+}
+
+table{
+    width:100%;
+    margin-top: 20px;
+}
+
+td{
+    padding: 10px;
+    line-height: 50px;
+}
+
+button{
+    border-style: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer
+}
+
+button:hover{
+    opacity: 0.6;
+}
+
+#date{
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+#col-btn{
+    position: fixed;
+}
+
+#col-btn > button{
+    display: block;
+    margin:20px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
