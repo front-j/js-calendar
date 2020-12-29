@@ -1,6 +1,10 @@
 # Vanilla JavaScript로 캘린더 만들기
 <img src=/result.gif width=860px height=500px></img>
 
+*Internet Explorer에서는 정상 작동하지 않을 수 있습니다. (Chrome, Edge 권장)*
+
+---
+
 ## review
 - 좌우로 나누어 좌측은 **오늘 날짜**를 알려주고, 우측은 **캘린더**를 보여주게 구성
 - 날짜는 내장함수 `Date`를 사용하여 가져옴 (`getFullYear`, `getMonth`, `getDate`, `getDay`)
